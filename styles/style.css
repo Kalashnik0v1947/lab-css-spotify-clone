@@ -1,8 +1,157 @@
-/*
-Colors:
+/* Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF */
 
-*/
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 18px;
+  /* font-size: 1.8rem;
+	font-weight: 300; */
+  line-height: 1.875;
+  margin: 0;
+}
+
+.spotify-logo {
+  width: 200px;
+  height: auto;
+  margin: 25px;
+}
+
+.nav-bar {
+  margin: 0 143px 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+
+.list-elements {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.top {
+  position: relative;
+  background-image: url(/images/landing.jpg);
+  background-repeat: no-repeat;
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+}
+
+.top h1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3.9rem;
+  font-stretch: extra-expanded;
+}
+
+.top article {
+  color: white;
+  text-align: center;
+  font-weight: -1000;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.mid {
+  height: 650px;
+}
+
+.what {
+  margin: 0 0 0 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 40px;
+  border-bottom: 4px solid #00b172;
+}
+
+.mid-icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  align-items: center;
+  padding: 220px 0 250px 0;
+}
+
+.millions {
+  width: 125px;
+  padding: 0 0 0 42px;
+}
+
+.hd-music {
+  width: 125px;
+  padding: 0 0 0 30px;
+}
+
+.stream {
+  width: 125px;
+  padding: 0 0 0 98px;
+}
+
+.mid h2 {
+  color: #00b172;
+  text-align: center;
+  font-size: 35px;
+}
+
+.mid article {
+  text-align: center;
+  font-size: 22px;
+}
+
+.bot {
+  margin: 25px;
+  height: 1200px;
+  background-color: #00b172;
+  color: white;
+}
+
+.spot-logo {
+  width: 10%;
+  margin: 50%;
+  position: absolute;
+}
+
+.Kanye {
+  position: absolute;
+  padding: 10% 0 0 5%;
+  font-size: 35px;
+  border-bottom: 4px solid white;
+}
+
+.bot-flex {
+  padding: 25% 0 0 5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.spotify-app {
+  width: 25%;
+  margin: auto auto auto 62%;
+  position: absolute;
+}
+.bot-flex h1 {
+  font-size: 30px;
+}
